@@ -17,8 +17,8 @@
 
 - [Node.js](https://nodejs.org/) v16 or higher
 - A Discord bot token (from [Discord Developer Portal](https://discord.com/developers/applications))
-- MongoDB URI (optional, if your bot uses a database)
-- API keys for third-party services (YouTube, Remove BG, Groq, etc.)
+- MongoDB URI (optional, if you want to use database)
+- API keys from third-party services (YouTube, Remove BG, Groq, etc.)
 
 ### Installation
 
@@ -28,32 +28,37 @@
    git clone https://github.com/Fristonn/Akame.git
    cd Akame
 ## Install dependencies:
-npm install
-Create a .env file in the root directory with the following variables:
+ Use *npm install* to install all the dependencies.
+ 
+_Create a .env file or  just rename .env.example file in the root directory with the following variables:_
 
-DISCORD_TOKEN=your-discord-bot-token
-MongoDb=your-mongodb-uri
-OWNER_ID=your-discord-user-id
-CLIENT_ID=your-bot-client-id
-YOUTUBE_API_KEY=your-youtube-api-key
-REMOVE_BG_API_KEY=your-removebg-api-key
-GROQ_API_KEY=your-groq-api-key
+#### DISCORD_TOKEN=your-discord-bot-token
+#### MongoDb=your-mongodb-uri
+#### OWNER_ID=your-discord-user-id
+#### CLIENT_ID=your-bot-client-id
+#### YOUTUBE_API_KEY=your-youtube-api-key
+#### REMOVE_BG_API_KEY=your-removebg-api-key
+#### GROQ_API_KEY=your-groq-api-key
 
 ## Start the bot:
 
 **You can easily start the bot by _node index.js in terminal_**
 ## Usage
-Invite the bot to your server using the OAuth2 URL with required permissions. Use the prefix ! (or your configured prefix) followed by commands.
+Invite the bot to your server using the OAuth2 URL with required permissions. Use the prefix akame (or your configured prefix) followed by commands.
 
 ## Example commands:
 
-!help – Display the help menu
+akame help – Display the help menu
 
-!ban @user – Ban a user from the server
+akame ban @user – Ban a user from the server
+
+akame timeout @user – Timeout a user in the server
+
+#### There are more, Explore and have fun!
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/Fristonn/Akame?tab=MIT-1-ov-file) file for details.
 
 ## Contact
-Created by Friston!
-For support or questions, open an issue or contact me directly on discord (friston_ae)
+Made with 💗 by Friston!
+### For support or questions, open an issue or contact me directly on discord - [friston_ae](https://discord.com/users/1240601660984791040)
