@@ -23,15 +23,15 @@ module.exports = {
 
     const scriptsData = {
       scripts: [
-        { name: 'Ae organizer', url: 'https://drive.google.com/file/d/1SeRIHuCJeSBHtGgCvSFUgkQDmz7oL19M/view?usp=drive_link' },
-        { name: 'Auto Nulls', url: 'https://drive.google.com/file/d/13VUUk-aOYmes4QCtkBN4xcHFnUdaFPuL/view?usp=drive_link' },
-        { name: 'Auto beats marker', url: 'https://drive.google.com/file/d/1ympQXf9il6KiMpgHkqUCQi5uZLQJDkZZ/view?usp=drive_link' },
-        { name: 'Composition Duplicator', url: 'https://drive.google.com/file/d/1nKuLeKDRrWeo_vrXTTtT7xCwnF4W5eI6/view?usp=drive_link' },
-        { name: 'Text Evo 2', url: 'https://drive.google.com/file/d/1i0hxGrJOdrq8Mh_c3dEWhO9xbsciZvww/view?usp=sharing' },
+        { name: '', url: '' },
+        { name: '', url: '' },
+        { name: '', url: '' },
+        { name: '', url: '' },
+        { name: '', url: '' },
         // Add real AE script links here
       ],
       panels: [
-        { name: 'Flow - Aescripts', url: 'https://drive.google.com/file/d/1n20UCyFji9oIsAuG5gwVmwg30kOsYla7/view?usp=sharing' },
+        { name: '', url: '' },
         // Add real AE panel links here
       ],
     };
