@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
-require('dotenv').config(); // Optional: For storing OWNER_ID in .env
+require('dotenv').config(); 
 
 const OWNER_ID = process.env.OWNER_ID || 'your_discord_user_id_here'; // Fallback if .env not used
 
