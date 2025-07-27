@@ -41,7 +41,7 @@ GROQ_API_KEY=your-groq-api-key
 
 ## Start the bot:
 
-**node index.js**
+**You can easily start the bot by _node index.js in terminal_**
 ## Usage
 Invite the bot to your server using the OAuth2 URL with required permissions. Use the prefix ! (or your configured prefix) followed by commands.
 
