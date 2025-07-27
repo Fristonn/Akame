@@ -44,7 +44,7 @@
 
 ## Start the bot
 
-**You can easily start the bot by _node index.js in terminal_**
+**You can easily start the bot by *_node index.js_* in terminal**
 ## Usage
 Invite the bot to your server using the OAuth2 URL with required permissions. Use the prefix akame (or your configured prefix) followed by commands.
 
