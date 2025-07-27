@@ -11,8 +11,8 @@ module.exports = {
         .setDescription('Select an editor to view their project files')
         .setRequired(true)
         .addChoices(
-          { name: 'pjunkie', value: 'pjunkie' },
-          { name: 'nikoaed', value: 'nikoaed' },
+          { name: '', value: '' },
+          { name: '', value: '' },
           // { name: 'editor3', value: 'editor3' },
           // { name: 'editor4', value: 'editor4' },
           // { name: 'editor5', value: 'editor5' },
@@ -31,17 +31,17 @@ module.exports = {
 
     const editorData = {
       pjunkie: [
-        { name: 'Bad Romance', url: 'https://drive.google.com/file/d/18xtOEPRRWp8ELNCNYjFCHhFkjss9Cu5K/view?usp=sharing' },
-        { name: 'Boys Beware', url: 'https://drive.google.com/file/d/1Vkf2NxlMqAOFPeTB7Fnf18AZZAcri9vj/view?usp=drive_link' },
-        { name: 'FYAAYF', url: 'https://drive.google.com/file/d/1mVAr61LDPh_1-NKQwPZXEdV1y-4st39t/view?usp=drive_link' },
-        { name: 'Girls like you', url: 'https://drive.google.com/file/d/1FIdhGNB9_1-Xd_MeAA84u8hw4-st_2HS/view?usp=drive_link' },
-        { name: 'Hush', url: 'https://drive.google.com/file/d/1OFVnUa0FJTcPtJSGdH0zVoeloU6LYnwh/view?usp=drive_link' },
-        { name: 'So Soaked', url: 'https://drive.google.com/file/d/1w5LqJmFYz8rK2sgUJQcLdtUeNgicn5EQ/view?usp=drive_link' },
-        { name: 'Lost Soul Down Makima', url: 'https://drive.google.com/file/d/1tmguareAIRWneQ8rcxWvNX3tCr3btRmP/view?usp=drive_link' },
-        { name: 'Hotline', url: 'https://drive.google.com/file/d/1LyM_AaeyeJeojVSVj_RxMT9wTEzwc_cK/view?usp=drive_link' },
+        { name: '', url: '' },
+        { name: '', url: '' },
+        { name: '', url: '' },
+        { name: '', url: '' },
+        { name: '', url: '' },
+        { name: '', url: '' },
+        { name: '', url: '' },
+        { name: '', url: '' },
       ],
       nikoaed: [
-        { name: 'Topaz setting and CC set (18 CC)', url: 'https://drive.google.com/file/d/1AL4vgxJDkBL3ViTYUQ7DzdYnhwM8k5wf/view?usp=drive_link' },
+        { name: '', url: '' },
       ],
       // editor3: [
       //   // Add project files here
