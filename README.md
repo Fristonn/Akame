@@ -3,10 +3,10 @@
 ## Features
 
 - 🎯 **Hybrid Command System** — Supports both Slash and traditional Prefix commands
-- 🔨 **Robust Moderation Tools** — Ban, Kick, Timeout, Purge, Role Manager, and more
+- 🔨 **Moderation Tools** — Ban, Kick, Timeout, Purge, Role Manager, and more
 - 🧠 **AI-Powered Conversations** — Natural replies using custom AI system based on llama
 - 📊 **Insightful Info Commands** — Server stats, user data, role analysis, dev/owner info
-- 🧰 **Utility Suite** — AFK system, slowmode, avatar fetcher, emoji/sticker steal, ping, eval
+- 🧰 **Utility** — AFK system, slowmode, avatar fetcher, emoji/sticker steal, ping, eval
 - 🎨 **Embed & Announcement Builder** — Beautiful custom embeds on the fly
 - 💬 **Action & Reaction System** — Hug, kiss, slap and other expressive commands
 - 📁 **Clean Code Structure** — Fully modular and beginner-friendly
