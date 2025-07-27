@@ -26,7 +26,7 @@
 
    ```bash
    git clone https://github.com/Fristonn/Akame.git
-   cd akame-bot
+   cd Akame
 ## Install dependencies:
 npm install
 Create a .env file in the root directory with the following variables:
@@ -51,9 +51,9 @@ Invite the bot to your server using the OAuth2 URL with required permissions. Us
 
 !ban @user – Ban a user from the server
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Contact
+## Contact
 Created by Friston!
 For support or questions, open an issue or contact me directly on discord (friston_ae)
