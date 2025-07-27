@@ -1,7 +1,6 @@
 module.exports = {
   name: 'interactionCreate',
   async execute(interaction, client) {
-    // Only handle modal submits starting with 'announceModal_'
     if (!interaction.isModalSubmit()) return;
 
     if (!interaction.customId.startsWith('announceModal_')) return;
@@ -14,16 +13,13 @@ module.exports = {
     }
 
     const rawMessage = interaction.fields.getTextInputValue('announcementMessage');
-
-    // Use the replacePlaceholders function from your command or utils
-    // If your command file is loaded somewhere accessible (like client.commands)
     const command = client.commands.get('announce');
 
     let message;
     if (command && command.replacePlaceholders) {
       message = command.replacePlaceholders(rawMessage, interaction, channel);
     } else {
-      message = rawMessage; // fallback: send raw message if replace not found
+      message = rawMessage; // fallback - send raw message if replace not found
     }
 
     try {
