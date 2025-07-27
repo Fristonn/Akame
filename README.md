@@ -12,7 +12,7 @@
 - 📁 **Clean Code Structure** — Fully modular and beginner-friendly
 - 📷 **Media processing** — Trim audio, trim video without quality loss
 - 🎟️ **Professional Ticketing System** — Best visually enhanced HTML logs
-- 🎟 **Suggestion System** — Get pubic reviews regarding your server
+- ❔ **Suggestion System** — Get pubic reviews regarding your server
 
 ## Getting Started
 
