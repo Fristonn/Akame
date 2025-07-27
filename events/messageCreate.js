@@ -79,7 +79,7 @@ module.exports = {
       return actionHandler.execute(message, [command, ...args]);
     }
 
-    // --- All other prefix commands ---
+    // --- All other prefix commands to be added ---
     await handlePrefixCommand(message, client);
   }
 };
