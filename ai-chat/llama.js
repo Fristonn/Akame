@@ -10,10 +10,10 @@ const headers = {
   "Content-Type": "application/json",
 };
 
-// 🧠 Per-user memory (chat + devMention)
+//  Per-user memory (chat + devMention)
 const memory = new Map();
 
-// ⏳ Cooldown map to avoid mass replies
+// Cooldown map to avoid mass replies
 const cooldowns = new Map();
 const COOLDOWN_TIME = 5000; // 5 seconds
 
@@ -120,7 +120,7 @@ async function getLlamaReply(message, userId = "default") {
     if (reply) return reply;
   }
 
-  return "She’s zoned out rn, try again thodi der mein";
+  return "She’s zoned out rn, try again later";
 }
 
 module.exports = { getLlamaReply };
