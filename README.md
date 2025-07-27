@@ -28,7 +28,7 @@
 
    ```bash
    git clone https://github.com/Fristonn/Akame.git
-   cd Akame
+   cd Akame-main
 ## Install dependencies
  Use *npm install* to install all the dependencies.
  
