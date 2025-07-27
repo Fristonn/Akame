@@ -1,4 +1,4 @@
-## **Akame** is a versatile and feature-rich Discord bot built with JavaScript, Designed to enhance your server with moderation, fun commands, and more — all in one package. This could be the easiest bot you can host yourself.
+### **Akame** is a versatile and feature-rich Discord bot built with JavaScript, Designed to enhance your server with moderation, fun commands, and more — all in one package. This could be the easiest bot you can host yourself.
 
 ## Features
 
