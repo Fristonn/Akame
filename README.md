@@ -63,5 +63,6 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 ## Contact
 Made with 💗 by Friston!
-### For support or questions, open an issue or contact me directly on discord 
-- [friston_ae](https://discord.com/users/1240601660984791040)
+### For support or questions, open an issue or contact me directly anytime on discord or Insta <3
+- [Discord](https://discord.com/users/1240601660984791040)
+- [Instagram](https://www.instagram.com/friston.ae/)
