@@ -6,7 +6,7 @@
 - 🔨 **Moderation Tools** — Ban, Kick, Timeout, Purge, Role Manager, and more
 - 🧠 **AI-Powered Conversations** — Natural replies using custom AI system based on **Llama**
 - 📊 **Insightful Info Commands** — Server stats, user data, role analysis, dev/owner info
-- 🧰 **Utility** — AFK system, slowmode, avatar fetcher, emoji/sticker steal, ping, eval
+- 🧰 **Utility** — AFK system, slowmode, avatar fetcher, emoji/sticker steal, ping
 - 🎨 **Embed & Announcement Builder** — Beautiful custom embeds on the fly
 - 💬 **Action & Reaction System** — Hug, kiss, slap and other expressive commands
 - 📁 **Clean Code Structure** — Fully modular and beginner-friendly
