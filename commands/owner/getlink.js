@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('discord.js');
 
 const OWNER_ID = process.env.OWNER_ID; // Make sure to set OWNER_ID in your environment variables
-const O2_GRAND_LINK = 'https://discord.com/oauth2/authorize?client_id=1375724102865911818&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.com&integration_type=0&scope=bot+rpc+applications.commands.permissions.update+applications.commands'; // Replace with your actual saved link
+const O2_GRAND_LINK = ''; // Replace with your actual saved link
 
 module.exports = {
   data: new SlashCommandBuilder()
