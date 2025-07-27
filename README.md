@@ -10,6 +10,7 @@
 - 🎨 **Embed & Announcement Builder** — Beautiful custom embeds on the fly
 - 💬 **Action & Reaction System** — Hug, kiss, slap and other expressive commands
 - 📁 **Clean Code Structure** — Fully modular and beginner-friendly
+- 📷 **Media processing** — trim audio, trim video without quality loss 
 
 ## Getting Started
 
