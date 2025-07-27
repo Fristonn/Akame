@@ -52,7 +52,7 @@ Invite the bot to your server using the OAuth2 URL with required permissions. Us
 !ban @user – Ban a user from the server
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Fristonn/Akame?tab=MIT-1-ov-file) file for details.
 
 ## Contact
 Created by Friston!
