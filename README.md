@@ -27,7 +27,7 @@
    ```bash
    git clone https://github.com/Fristonn/Akame.git
    cd akame-bot
-Install dependencies:
+## Install dependencies:
 npm install
 Create a .env file in the root directory with the following variables:
 
@@ -39,22 +39,21 @@ YOUTUBE_API_KEY=your-youtube-api-key
 REMOVE_BG_API_KEY=your-removebg-api-key
 GROQ_API_KEY=your-groq-api-key
 
-Start the bot:
+## Start the bot:
 
 node index.js
 Usage
 Invite the bot to your server using the OAuth2 URL with required permissions. Use the prefix ! (or your configured prefix) followed by commands.
 
-Example commands:
+## Example commands:
 
 !help – Display the help menu
 
-
 !ban @user – Ban a user from the server
 
-License
+##License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-Created by Your Name.
+##Contact
+Created by Friston!
 For support or questions, open an issue or contact me directly on discord (friston_ae)
