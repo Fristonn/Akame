@@ -26,7 +26,7 @@ module.exports = {
       ) {
         return await interaction.reply({
           content: "You can't use bot commands in DMs.",
-          flags: 64, // ephemeral
+          flags: 64, 
         });
       }
 
