@@ -17,7 +17,7 @@ module.exports = {
     if (!attachment.contentType.startsWith('image/')) {
       return interaction.reply({
         content: 'Please upload a valid image file.',
-        ephemeral: true,
+        flags: 64,
       });
     }
 
