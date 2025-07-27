@@ -34,13 +34,13 @@
  
 #### _Create a .env file or  just rename .env.example file in the root directory with the following variables:_
 
- DISCORD_TOKEN=your-discord-bot-token
- MongoDb=your-mongodb-uri
- OWNER_ID=your-discord-user-id
- CLIENT_ID=your-bot-client-id
- YOUTUBE_API_KEY=your-youtube-api-key
- REMOVE_BG_API_KEY=your-removebg-api-key
- GROQ_API_KEY=your-groq-api-key
+ *DISCORD_TOKEN=your-discord-bot-token*
+ *MongoDb=your-mongodb-uri*
+ *OWNER_ID=your-discord-user-id*
+ *CLIENT_ID=your-bot-client-id*
+ *YOUTUBE_API_KEY=your-youtube-api-key*
+ *REMOVE_BG_API_KEY=your-removebg-api-key*
+ *GROQ_API_KEY=your-groq-api-key*
 
 ## Start the bot:
 
