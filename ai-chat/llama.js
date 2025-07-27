@@ -107,7 +107,7 @@ async function getLlamaReply(message, userId = "default") {
   const lastTime = cooldowns.get(userId) || 0;
 
   if (now - lastTime < COOLDOWN_TIME) {
-    return "thoda ruk, sabko ek sath reply nahi karti";
+    return "Wait a while, I can't reply everyone togeather.";
   }
 
   cooldowns.set(userId, now);
