@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('discord.js');
 
-const OWNER_ID = process.env.OWNER_ID; // Make sure to set OWNER_ID in your environment variables
+const OWNER_ID = process.env.OWNER_ID;
 const O2_GRAND_LINK = ''; // Replace with your actual saved link
 
 module.exports = {
