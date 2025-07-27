@@ -26,7 +26,7 @@ module.exports = {
     await interaction.deferReply();
 
     try {
-      const api = `https://tikwm.com/api/?url=${encodeURIComponent(url)}`;
+      const api = `${encodeURIComponent(url)}`; // replace with actual api to download videos
       const response = await fetch(api);
       const data = await response.json();
 
