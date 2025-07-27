@@ -4,7 +4,7 @@
 
 - 🎯 **Hybrid Command System** — Supports both Slash and traditional Prefix commands
 - 🔨 **Moderation Tools** — Ban, Kick, Timeout, Purge, Role Manager, and more
-- 🧠 **AI-Powered Conversations** — Natural replies using custom AI system based on llama
+- 🧠 **AI-Powered Conversations** — Natural replies using custom AI system based on **Llama**
 - 📊 **Insightful Info Commands** — Server stats, user data, role analysis, dev/owner info
 - 🧰 **Utility** — AFK system, slowmode, avatar fetcher, emoji/sticker steal, ping, eval
 - 🎨 **Embed & Announcement Builder** — Beautiful custom embeds on the fly
