@@ -24,12 +24,12 @@
 
 ### Installation
 
-1. Clone this repository:
+1. Clone this repository
 
    ```bash
    git clone https://github.com/Fristonn/Akame.git
    cd Akame
-## Install dependencies:
+## Install dependencies
  Use *npm install* to install all the dependencies.
  
 ## _Create a .env file or  just rename .env.example file in the root directory with the following variables:_
@@ -42,13 +42,13 @@
  #### *REMOVE_BG_API_KEY=your-removebg-api-key*
  #### *GROQ_API_KEY=your-groq-api-key*
 
-## Start the bot:
+## Start the bot
 
 **You can easily start the bot by _node index.js in terminal_**
 ## Usage
 Invite the bot to your server using the OAuth2 URL with required permissions. Use the prefix akame (or your configured prefix) followed by commands.
 
-## Example commands:
+## Example commands
 
 akame help – Display the help menu
 
