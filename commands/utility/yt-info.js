@@ -64,7 +64,7 @@ module.exports = {
           { name: 'Banner Image', value: bannerUrl ? `[View Banner](${bannerUrl})` : 'N/A', inline: false }
         )
         .setFooter({
-          text: '© Render Systems | Powered by Friston',
+          text: 'Powered by Friston',
           iconURL: interaction.client.user.displayAvatarURL({ dynamic: true })
         })
         .setTimestamp();
