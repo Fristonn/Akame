@@ -182,7 +182,7 @@ module.exports = {
             try {
               const config = JSON.parse(require('fs').readFileSync(configPath, 'utf8'));
               if (config.applicationsDisabled) {
-                const disabledMessage = config.disabledMessage || 'Unit applications are currently disabled.';
+                const disabledMessage = config.disabledMessage || 'Unit applications are currently closed.';
                 return await interaction.reply({
                   content: disabledMessage,
                   flags: 64,
