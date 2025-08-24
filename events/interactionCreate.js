@@ -13,6 +13,7 @@ const path = require('path');
 const handleStaffApplication = require('./staffApplicationHandler');
 const { handleUnitApplication, handleUnitAction } = require('./unitApplicationHandler');
 
+
 module.exports = {
   name: 'interactionCreate',
   async execute(interaction, client) {
@@ -26,7 +27,7 @@ module.exports = {
       ) {
         return await interaction.reply({
           content: "You can't use bot commands in DMs.",
-          flags: 64, 
+          flags: 64, // ephemeral
         });
       }
 
@@ -175,6 +176,24 @@ module.exports = {
       // --- Unit Form Button ---
       if (interaction.isButton() && interaction.customId === 'open_unit_form') {
         try {
+          // Check if applications are disabled first
+          const configPath = path.join(process.cwd(), 'data', 'unitConfig.json');
+          if (require('fs').existsSync(configPath)) {
+            try {
+              const config = JSON.parse(require('fs').readFileSync(configPath, 'utf8'));
+              if (config.applicationsDisabled) {
+                const disabledMessage = config.disabledMessage || 'Unit applications are currently disabled.';
+                return await interaction.reply({
+                  content: disabledMessage,
+                  flags: 64,
+                });
+              }
+            } catch (error) {
+              console.error('Error reading config:', error);
+            }
+          }
+
+          // If applications are enabled, show the modal
           const modal = new ModalBuilder()
             .setCustomId('unit_application')
             .setTitle('Unit Applications');
@@ -230,6 +249,8 @@ module.exports = {
           }
         }
       }
+
+
 
     } catch (finalError) {
       console.error('Unhandled interaction error:', finalError);
