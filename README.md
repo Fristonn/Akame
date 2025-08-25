@@ -13,6 +13,7 @@
 - 📷 **Media processing** — Trim audio, trim video without quality loss
 - 🎟️ **Professional Ticketing System** — Best visually enhanced HTML logs
 - ❔ **Suggestion System** — Get public reviews regarding your server
+- 🗒️ **Application forms** — Get applications for staff or unit in the easiest way possible with forms locking system
 
 ## Getting Started
 
