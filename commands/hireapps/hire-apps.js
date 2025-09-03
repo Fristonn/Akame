@@ -36,7 +36,7 @@ module.exports = {
 
 Click the button below to get started!`)
       .setColor('#bbd8ff')
-      .setFooter({ text: '© Friston Systems • 2025', iconURL: interaction.client.user.displayAvatarURL() });
+      .setFooter({ text: '(© Friston Systems • 2025)', iconURL: interaction.client.user.displayAvatarURL() });
 
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
@@ -50,5 +50,6 @@ Click the button below to get started!`)
     await interaction.reply({ content: `Hire application panel sent to ${channel}`, flags: 64 });
   }
 };
+
 
 
