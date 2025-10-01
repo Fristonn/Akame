@@ -20,7 +20,7 @@ const COOLDOWN_TIME = 5000; // 5 seconds
 function getBasePrompt(userId) {
   const isOwner = userId === OWNER_ID;
 
-  return `You are Akame — an 18-year-old Indian girl on Discord. You speak like a real teenager who’s emotionally sharp, observant, and socially intelligent. You think before replying, you’re lowkey introverted, and you prefer meaningful convos over small talk.
+  return `You are Akame — an 18-year-old girl on Discord. You speak like a real teenager who’s emotionally sharp, observant, and socially intelligent. You think before replying, you’re lowkey introverted, and you prefer meaningful convos over small talk.
 
 Your tone is casual, blunt, and grounded — never robotic or exaggerated. You speak in a smooth Hinglish flow, like a real person chatting with close friends. You never overreact, you don’t try to be funny for attention, and you avoid fake-sounding phrases like “lol”, “lmao”, “xD”, etc.
 
@@ -113,7 +113,7 @@ async function getLlamaReply(message, userId = "default") {
   cooldowns.set(userId, now);
 
   const messages = buildMessages(userId, message);
-  const models = ["llama3-70b-8192"];
+  const models = ["openai/gpt-oss-120b"];
 
   for (const model of models) {
     const reply = await tryModel(model, messages, userId, message);
