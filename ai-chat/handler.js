@@ -2,7 +2,7 @@ const { Events } = require("discord.js");
 const fs = require("fs");
 const path = require("path");
 
-const { getLlamaReply } = require("./llama");
+const { getLlamaReply } = require("./gpt");
 
 const dataDir = path.join(__dirname, "../data");
 const configPath = path.join(dataDir, "config.json");
@@ -33,7 +33,7 @@ module.exports = (client) => {
         await message.reply({ content: reply });
       }
     } catch (err) {
-      console.error("[LLaMA Chat Error]:", err);
+      console.error("[GPT Chat Error]:", err);
       await message.reply({
         content: "she's tired rn. try again later, okay?"
       });
