@@ -58,7 +58,9 @@ akame ban @user – Ban a user from the server
 
 akame timeout @user – Timeout a user in the server
 
-#### There are more, Explore and have fun!
+#### There are more to see, Explore and have fun!
+
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/Fristonn/Akame?tab=MIT-1-ov-file) file for details.
