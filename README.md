@@ -58,7 +58,8 @@ akame ban @user – Ban a user from the server
 
 akame timeout @user – Timeout a user in the server
 
-#### There are more to see, Explore and have fun!
+#### There are even more to see, explore and have fun!
+
 
 
 
